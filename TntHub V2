@@ -70,26 +70,11 @@ local LagServer = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
 local UIGradient_22 = Instance.new("UIGradient")
 local UIGradient_23 = Instance.new("UIGradient")
-local BuyV3 = Instance.new("TextButton")
+local Main_2 = Instance.new("Frame")
 local UICorner_25 = Instance.new("UICorner")
 local UIGradient_24 = Instance.new("UIGradient")
-local CumparaV3 = Instance.new("Frame")
-local Gamepass = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local UICorner_27 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
-local UICorner_28 = Instance.new("UICorner")
-local close = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
-local Main_2 = Instance.new("Frame")
-local UICorner_30 = Instance.new("UICorner")
 local UIGradient_25 = Instance.new("UIGradient")
-local TextLabel_2 = Instance.new("TextLabel")
-local UIGradient_26 = Instance.new("UIGradient")
-local PlayerIcon = Instance.new("Frame")
-local UICorner_31 = Instance.new("UICorner")
-local ImageLabel = Instance.new("ImageLabel")
-local UICorner_32 = Instance.new("UICorner")
 
 --Properties:
 
@@ -479,75 +464,6 @@ UIGradient_22.Parent = LagServer
 UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 157, 0))}
 UIGradient_23.Parent = Misc
 
-BuyV3.Name = "BuyV3"
-BuyV3.Parent = Misc
-BuyV3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BuyV3.Position = UDim2.new(0.0904545486, 0, 0.681848943, 0)
-BuyV3.Size = UDim2.new(0, 126, 0, 24)
-BuyV3.Font = Enum.Font.PermanentMarker
-BuyV3.Text = "Cumpara V3"
-BuyV3.TextColor3 = Color3.fromRGB(0, 0, 0)
-BuyV3.TextScaled = true
-BuyV3.TextSize = 14.000
-BuyV3.TextWrapped = true
-
-UICorner_25.Parent = BuyV3
-
-UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(84, 84, 84)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(63, 63, 63))}
-UIGradient_24.Parent = BuyV3
-
-CumparaV3.Name = "CumparaV3"
-CumparaV3.Parent = Misc
-CumparaV3.BackgroundColor3 = Color3.fromRGB(131, 0, 0)
-CumparaV3.Position = UDim2.new(1.39184427, 0, 0.0743405223, 0)
-CumparaV3.Size = UDim2.new(0, 225, 0, 195)
-CumparaV3.Visible = false
-
-Gamepass.Name = "Gamepass"
-Gamepass.Parent = CumparaV3
-Gamepass.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Gamepass.Position = UDim2.new(0.219099283, 0, 0.417868465, 0)
-Gamepass.Size = UDim2.new(0, 126, 0, 32)
-Gamepass.Font = Enum.Font.PermanentMarker
-Gamepass.Text = "TntHub V3"
-Gamepass.TextColor3 = Color3.fromRGB(255, 255, 255)
-Gamepass.TextScaled = true
-Gamepass.TextSize = 14.000
-Gamepass.TextWrapped = true
-
-UICorner_26.CornerRadius = UDim.new(0.25, 0)
-UICorner_26.Parent = Gamepass
-
-UICorner_27.Parent = CumparaV3
-
-TextLabel.Parent = CumparaV3
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.Position = UDim2.new(0, 0, -0.00512820529, 0)
-TextLabel.Size = UDim2.new(0, 225, 0, 50)
-TextLabel.Font = Enum.Font.SciFi
-TextLabel.Text = "TntHub V3"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-UICorner_28.Parent = TextLabel
-
-close.Name = "close"
-close.Parent = CumparaV3
-close.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-close.Position = UDim2.new(0.996877193, 0, -0.126507729, 0)
-close.Size = UDim2.new(0, 26, 0, 27)
-close.Font = Enum.Font.PermanentMarker
-close.Text = "X"
-close.TextColor3 = Color3.fromRGB(255, 21, 0)
-close.TextScaled = true
-close.TextSize = 14.000
-close.TextWrapped = true
-
-UICorner_29.CornerRadius = UDim.new(0.25, 0)
-UICorner_29.Parent = close
-
 Main_2.Name = "Main"
 Main_2.Parent = Main
 Main_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -555,197 +471,177 @@ Main_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Main_2.Position = UDim2.new(0, 0, -0.107456125, 0)
 Main_2.Size = UDim2.new(0, 372, 0, 46)
 
-UICorner_30.Parent = Main_2
+UICorner_25.Parent = Main_2
 
-UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(84, 84, 84)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(63, 63, 63))}
-UIGradient_25.Parent = Main_2
+UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(84, 84, 84)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(63, 63, 63))}
+UIGradient_24.Parent = Main_2
 
-TextLabel_2.Parent = Main_2
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.231182799, 0, 0, 0)
-TextLabel_2.Size = UDim2.new(0, 200, 0, 38)
-TextLabel_2.Font = Enum.Font.PermanentMarker
-TextLabel_2.Text = "TntHub V2"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextSize = 29.000
+TextLabel.Parent = Main_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.231182799, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 38)
+TextLabel.Font = Enum.Font.PermanentMarker
+TextLabel.Text = "TntHub V2[BETA]"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 29.000
 
-UIGradient_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(71, 71, 71))}
-UIGradient_26.Parent = Main
-
-PlayerIcon.Name = "PlayerIcon"
-PlayerIcon.Parent = Main
-PlayerIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-PlayerIcon.Position = UDim2.new(-0.00170981884, 0, -0.109221205, 0)
-PlayerIcon.Size = UDim2.new(0.122899964, 0, 0.102289878, 0)
-PlayerIcon.ZIndex = 3
-
-UICorner_31.CornerRadius = UDim.new(1, 0)
-UICorner_31.Parent = PlayerIcon
-
-ImageLabel.Parent = PlayerIcon
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Position = UDim2.new(0.0589558482, 0, 0.13809967, 0)
-ImageLabel.Size = UDim2.new(0.860000014, 0, 0.855257332, 0)
-ImageLabel.ZIndex = 3
-ImageLabel.Image = "http://www.roblox.com/asset/?id=8826500982"
-
-UICorner_32.CornerRadius = UDim.new(1, 0)
-UICorner_32.Parent = ImageLabel
+UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(71, 71, 71))}
+UIGradient_25.Parent = Main
 
 -- Scripts:
 
-local function YEHGBVG_fake_script() -- InfiniteYeld.LocalScript 
+local function LNRMUAK_fake_script() -- InfiniteYeld.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYeld)
 
 	InfiniteYeld.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(YEHGBVG_fake_script)()
-local function AJSJYEN_fake_script() -- CMDX.LocalScript 
+coroutine.wrap(LNRMUAK_fake_script)()
+local function MZZUX_fake_script() -- CMDX.LocalScript 
 	local script = Instance.new('LocalScript', CMDX)
 
 	CMDX.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(AJSJYEN_fake_script)()
-local function SASQN_fake_script() -- invisibility.LocalScript 
+coroutine.wrap(MZZUX_fake_script)()
+local function SBRBKSB_fake_script() -- invisibility.LocalScript 
 	local script = Instance.new('LocalScript', invisibility)
 
 	invisibility.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/PhoenixAceVFX/Roblox-Scripts/master/FE%20Invisible.lua", true))()
 	end)
 end
-coroutine.wrap(SASQN_fake_script)()
-local function EFDUOJ_fake_script() -- Qtotp.LocalScript 
+coroutine.wrap(SBRBKSB_fake_script)()
+local function LHTSOD_fake_script() -- Qtotp.LocalScript 
 	local script = Instance.new('LocalScript', Qtotp)
 
 	Qtotp.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/qyww70GR'),true))()
 	end)
 end
-coroutine.wrap(EFDUOJ_fake_script)()
-local function ZNRE_fake_script() -- UnamedESP.LocalScript 
+coroutine.wrap(LHTSOD_fake_script)()
+local function LRSKG_fake_script() -- UnamedESP.LocalScript 
 	local script = Instance.new('LocalScript', UnamedESP)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua", true))()
 	end)
 end
-coroutine.wrap(ZNRE_fake_script)()
-local function ZCYE_fake_script() -- Tpgui.LocalScript 
+coroutine.wrap(LRSKG_fake_script)()
+local function YVGN_fake_script() -- Tpgui.LocalScript 
 	local script = Instance.new('LocalScript', Tpgui)
 
 	Tpgui.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
 	end)
 end
-coroutine.wrap(ZCYE_fake_script)()
-local function AIBOQM_fake_script() -- JailBreak.LocalScript 
+coroutine.wrap(YVGN_fake_script)()
+local function RAPPIG_fake_script() -- JailBreak.LocalScript 
 	local script = Instance.new('LocalScript', JailBreak)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"),true))()
 	end)
 end
-coroutine.wrap(AIBOQM_fake_script)()
-local function UJNJ_fake_script() -- PetXSim.LocalScript 
+coroutine.wrap(RAPPIG_fake_script)()
+local function ZHMTV_fake_script() -- PetXSim.LocalScript 
 	local script = Instance.new('LocalScript', PetXSim)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://www.scriptblox.com/raw/SAZA-HUB_496"),true))()
 	end)
 end
-coroutine.wrap(UJNJ_fake_script)()
-local function PUXN_fake_script() -- BeeSwarm.LocalScript 
+coroutine.wrap(ZHMTV_fake_script)()
+local function RPALSW_fake_script() -- BeeSwarm.LocalScript 
 	local script = Instance.new('LocalScript', BeeSwarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/not-weuz/Lua/main/bsstrainer.lua"),true))()
 	end)
 end
-coroutine.wrap(PUXN_fake_script)()
-local function RKIO_fake_script() -- DarkDex.LocalScript 
+coroutine.wrap(RPALSW_fake_script)()
+local function JNNW_fake_script() -- DarkDex.LocalScript 
 	local script = Instance.new('LocalScript', DarkDex)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://pastebin.com/raw/fPP8bZ8Z"),true))()
 	end)
 end
-coroutine.wrap(RKIO_fake_script)()
-local function LNGHRJQ_fake_script() -- BloxBurg.LocalScript 
+coroutine.wrap(JNNW_fake_script)()
+local function NYFZ_fake_script() -- BloxBurg.LocalScript 
 	local script = Instance.new('LocalScript', BloxBurg)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/iaEdYXXW'))()
 	end)
 end
-coroutine.wrap(LNGHRJQ_fake_script)()
-local function FJQS_fake_script() -- PrisonLife.LocalScript 
+coroutine.wrap(NYFZ_fake_script)()
+local function PTUGMC_fake_script() -- PrisonLife.LocalScript 
 	local script = Instance.new('LocalScript', PrisonLife)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/descord/loadstrings/main/prisonlifecmds1.lua'))()
 	end)
 end
-coroutine.wrap(FJQS_fake_script)()
-local function ZGMBU_fake_script() -- FpsBoost.LocalScript 
+coroutine.wrap(PTUGMC_fake_script)()
+local function DNQSBI_fake_script() -- FpsBoost.LocalScript 
 	local script = Instance.new('LocalScript', FpsBoost)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(("https://pastebin.com/raw/ywFjby1i"),true))()
 	end)
 end
-coroutine.wrap(ZGMBU_fake_script)()
-local function WYAQ_fake_script() -- UniversalSpeed.LocalScript 
+coroutine.wrap(DNQSBI_fake_script)()
+local function ZGUZ_fake_script() -- UniversalSpeed.LocalScript 
 	local script = Instance.new('LocalScript', UniversalSpeed)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AaronS69420/unca/main/ff"))()
 	end)
 end
-coroutine.wrap(WYAQ_fake_script)()
-local function TGTPFY_fake_script() -- CrashServer.LocalScript 
+coroutine.wrap(ZGUZ_fake_script)()
+local function FZCF_fake_script() -- CrashServer.LocalScript 
 	local script = Instance.new('LocalScript', CrashServer)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/czopekxd/DahoodCrash/main/x.lua'))()
 	end)
 end
-coroutine.wrap(TGTPFY_fake_script)()
-local function HBNY_fake_script() -- KillAll.LocalScript 
+coroutine.wrap(FZCF_fake_script)()
+local function ZTWCH_fake_script() -- KillAll.LocalScript 
 	local script = Instance.new('LocalScript', KillAll)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Applehollyday7/Apple_GUI/main/%EB%8F%99%EA%B5%B4%EB%B6%80%EB%8C%80%20%ED%8F%AD%ED%8C%94"),true))()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/CgcCZb7X"),true))()
 	end)
 end
-coroutine.wrap(HBNY_fake_script)()
-local function IGWC_fake_script() -- CopyMap.LocalScript 
+coroutine.wrap(ZTWCH_fake_script)()
+local function PSGAN_fake_script() -- CopyMap.LocalScript 
 	local script = Instance.new('LocalScript', CopyMap)
 
 	saveinstace()
 end
-coroutine.wrap(IGWC_fake_script)()
-local function ZNUZ_fake_script() -- Ac6Speed.LocalScript 
+coroutine.wrap(PSGAN_fake_script)()
+local function IRSWTW_fake_script() -- Ac6Speed.LocalScript 
 	local script = Instance.new('LocalScript', Ac6Speed)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/cruUwxaW"))()
 	end)
 end
-coroutine.wrap(ZNUZ_fake_script)()
-local function AZDMHH_fake_script() -- LagSwitch.LocalScript 
+coroutine.wrap(IRSWTW_fake_script)()
+local function WTNCXN_fake_script() -- LagSwitch.LocalScript 
 	local script = Instance.new('LocalScript', LagSwitch)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://paste.gg/p/anonymous/8aa10a1c311f4060b33d3d3e2c6a3ffd/files/d622a8f0f5954a08b88bee8e49b83222/raw"))()
 	end)
 end
-coroutine.wrap(AZDMHH_fake_script)()
-local function CWSCMX_fake_script() -- LagServer.LocalScript 
+coroutine.wrap(WTNCXN_fake_script)()
+local function SGFZ_fake_script() -- LagServer.LocalScript 
 	local script = Instance.new('LocalScript', LagServer)
 
 	local prefix = ":"
@@ -756,39 +652,8 @@ local function CWSCMX_fake_script() -- LagServer.LocalScript
 		game.Players:Chat(msg)
 	end 
 end
-coroutine.wrap(CWSCMX_fake_script)()
-local function WNOITC_fake_script() -- BuyV3.LocalScript 
-	local script = Instance.new('LocalScript', BuyV3)
-
-	local frame = script.Parent.Parent.CumparaV3
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		frame.Visible = true
-	end)
-end
-coroutine.wrap(WNOITC_fake_script)()
-local function RVGLV_fake_script() -- Gamepass.GamepassScript 
-	local script = Instance.new('LocalScript', Gamepass)
-
-	local ID = 27301337
-	local User = game.Players.LocalPlayer
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if User then
-			game:GetService("MarketplaceService"):PromptGamePassPurchase(User, ID)
-		end
-	end)
-end
-coroutine.wrap(RVGLV_fake_script)()
-local function AUDXS_fake_script() -- close.LocalScript 
-	local script = Instance.new('LocalScript', close)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Visible = false
-	end)
-end
-coroutine.wrap(AUDXS_fake_script)()
-local function TCHU_fake_script() -- Main.Move 
+coroutine.wrap(SGFZ_fake_script)()
+local function IVTZ_fake_script() -- Main.Move 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -828,13 +693,4 @@ local function TCHU_fake_script() -- Main.Move
 	end
 	drag(script.Parent)
 end
-coroutine.wrap(TCHU_fake_script)()
-local function APTI_fake_script() -- ImageLabel.LocalScript 
-	local script = Instance.new('LocalScript', ImageLabel)
-
-	local plr = game.Players.LocalPlayer
-	local img = game.Players:GetUserThumbnailAsync(plr.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size352x352)
-	
-	script.Parent.Image = img
-end
-coroutine.wrap(APTI_fake_script)()
+coroutine.wrap(IVTZ_fake_script)()
